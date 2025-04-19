@@ -1,7 +1,7 @@
 package com.springbootproject.unitconverter.service;
 
 import java.text.DecimalFormat;
-import java.util.HashMap;
+
 
 public class TemperatureConverterService {
     private final DecimalFormat df = new DecimalFormat("#.#########");

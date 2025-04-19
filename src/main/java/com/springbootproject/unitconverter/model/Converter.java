@@ -1,12 +1,12 @@
 package com.springbootproject.unitconverter.model;
 
-public class LengthConverter {
+public class Converter {
     private String fromUnit;
     private String toUnit;
     private Double inputValue;
     private String outputValue;
 
-    public LengthConverter(String fromUnit, String toUnit, Double inputValue, String outputValue) {
+    public Converter(String fromUnit, String toUnit, Double inputValue, String outputValue) {
         this.fromUnit = fromUnit;
         this.toUnit = toUnit;
         this.inputValue = inputValue;
